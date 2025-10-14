@@ -59,6 +59,76 @@
         #contact {
             background-color: aquamarine;
         }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 40px;
+    }
+
+    section#contact {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: lab(100% 0.01 -0.01);
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid hwb(0 98% 2%);
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    form textarea {
+      resize: vertical;
+    }
+
+    form button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button[type="submit"] {
+      background-color: #28a745;
+      color: #fff;
+      margin-right: 10px;
+    }
+
+    form button[type="reset"] {
+      background-color: #dc3545;
+      color: #fff;
+    }
+
+    form button:hover {
+      opacity: 0.9;
+    }
+
     </style>
 </head>
 
