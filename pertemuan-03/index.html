@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Judul halaman halo</title>
     <style>
-        #about {
+        #about,
+        #contact {
             background-color: #ffffff;
             border-radius: 10px;
             padding: 20px;
@@ -41,7 +42,7 @@
             flex-shrink: 0;
         }
 
-        @media{
+        @media (max-width: 600px){
 
             #about p {
                 flex-direction: column;
@@ -55,79 +56,6 @@
                 margin-bottom: 2px;
             }
         }
-
-        #contact {
-            background-color: aquamarine;
-        }
-
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      margin: 0;
-      padding: 40px;
-    }
-
-    section#contact {
-      max-width: 600px;
-      margin: 10 auto;
-      background-color: lab(100% 0.01 -0.01);
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #333;
-    }
-
-    form label {
-      display: block;
-      margin-top: 15px;
-      font-weight: bold;
-      color: #444;
-    }
-
-    form input[type="text"],
-    form input[type="email"],
-    form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border: 1px solid hwb(0 98% 2%);
-      border-radius: 5px;
-      box-sizing: border-box;
-      font-size: 14px;
-    }
-
-    form textarea {
-      resize: vertical;
-    }
-
-    form button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 14px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    form button[type="submit"] {
-      background-color: #003366;
-      color: hsl(0, 0%, 100%);
-      margin-right: 10px;
-    }
-
-    form button[type="reset"] {
-      background-color: #b4b4b4;
-      color: #000000;
-    }
-    form button:hover {
-      opacity: 0.9;
-    }
-
     </style>
     
 </head>
