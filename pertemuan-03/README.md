@@ -18,4 +18,5 @@ Hari ini, Kamis 09 Oktober 2025, Saya belajar;
  <li>membuat styling unutk selector ID #contact label>span</li>
 <li>membuat styling unutk selector ID #contact input dan text area</li>
 <li>>membuat styling unutk selector ID #contact button</li>
+<li>>membuat styling unutk selector ID #contact button warna</li>
 </ol>
