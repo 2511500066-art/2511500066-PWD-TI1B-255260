@@ -16,5 +16,5 @@ Hari ini, Kamis 09 Oktober 2025, Saya belajar;
  <li>ugrade struktur form section #contact</li>
  <li>membuat styling unutk selector ID #contact label</li>
  <li>membuat styling unutk selector ID #contact label>span</li>
-
+<li>membuat styling unutk selector ID #contact input dan text area</li>
 </ol>
