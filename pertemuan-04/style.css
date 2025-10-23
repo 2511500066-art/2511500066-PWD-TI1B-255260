@@ -1,6 +1,28 @@
 * {
 box-sizing: border-box;
 }
+
+header{
+    background: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0 0;
+}
+
+header li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+
 body{
     margin: 0;
     font-family: arial, sans-serif;
