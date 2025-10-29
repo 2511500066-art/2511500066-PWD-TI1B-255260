@@ -1,1 +1,15 @@
 # pertemuan-05
+NIM:2511500066
+NAMA:M.Kaesa Dude Laudianis Koto
+Hari ini,Kamis 23 Oktober 2025 saya mempelajari :
+
+<ol>
+<li>copy index.html dan style.css folder pertemuan-04</li>
+<li><li>
+<li><li>
+<li><li>
+<li><li>
+<li><li>
+<li><li>
+<li><li>
+</ol>
