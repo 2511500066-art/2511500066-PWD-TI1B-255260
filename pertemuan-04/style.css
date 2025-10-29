@@ -18,9 +18,9 @@ header ul {
 }
 
 header li a {
-color: #fff;
-text-decoration: none;
-padding: 6px 12px;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
 }
 
 #home,
@@ -33,6 +33,7 @@ padding: 6px 12px;
     margin: 20px auto;
     box-shadow: 0 2px 5px #09d6fa;
 }
+
 #home h2,
 #about h2,
 #contact h2 {
@@ -42,8 +43,9 @@ padding: 6px 12px;
     margin-top: 0;
     margin-bottom: 16px;
 }
+
 #home p {
-text-align: justify;
+    text-align: justify;
 }
 
 #about p,
@@ -115,6 +117,31 @@ text-align: justify;
     transform: translateY(-1px);
 }
 
+footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 10px;
+}
+
+header li a:hover {
+    background-color: #85020d;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+header li a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+header li a:active {
+    background-color: #cc04a1;
+    transform: translateY(1px);
+}
+
 @media (max-width: 600px) {
 
     #about p,
@@ -135,4 +162,33 @@ text-align: justify;
     #contact button {
         width: 100%;
     }
+
+    header {
+        padding: 16px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    header h1 {
+        margin: 0 0 8px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        margin: 8px 0 0;
+    }
+
+    header li a {
+        display: block;
+        padding: 12px 14px;
+        border: 1px solid rgba(255, 255, 255, .35);
+        background: rgba(255, 255, 255, .08);
+        backdrop-filter: saturate(120%);
+    }
+
 }
