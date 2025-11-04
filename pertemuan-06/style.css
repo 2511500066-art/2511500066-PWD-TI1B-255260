@@ -50,10 +50,16 @@ header li a {
 #home p {
     text-align: justify;
 }
+#ipk p {
+     display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 0;
+    padding: 6px 0;
+}
 
 #about p,
-#contact label,
-#ipk p {
+#contact label {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
