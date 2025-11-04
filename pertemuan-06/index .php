@@ -29,7 +29,9 @@
             <p>ini contoh paragraf HTML.</p>
         </section>
         <section id="about">
-
+            <?php
+            
+            ?>
             <h2>Tentang kami</h2>
             <p> <strong>Nama:</strong>M KAESA DUDE LAUDIANIS KOTO</p>
             <p> <strong>Nim:</strong>2511500066</p>
