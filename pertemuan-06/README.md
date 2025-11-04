@@ -12,5 +12,6 @@ belajar:<br>
     <li>membuat variabel php daari nama sampai adik<li>
     <li>membuat section#ipk<li>
     <li>setyling section#ipk<li>
-    <li>membuat avriabel dan melakukan perhitungan untuk matkul 1<li>
+    <li>membuat vriabel dan melakukan perhitungan untuk matkul 1<li>
+    <li>membuat vriabel dan melakukan perhitungan untuk matkul 2<li>
 </ol>
