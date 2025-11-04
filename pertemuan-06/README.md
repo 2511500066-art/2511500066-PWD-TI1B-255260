@@ -14,4 +14,5 @@ belajar:<br>
     <li>setyling section#ipk<li>
     <li>membuat vriabel dan melakukan perhitungan untuk matkul 1<li>
     <li>membuat vriabel dan melakukan perhitungan untuk matkul 2<li>
+    <li>membuat vriabel dan melakukan perhitungan untuk matkul 3<li>
 </ol>
