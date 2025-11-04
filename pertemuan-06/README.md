@@ -12,10 +12,11 @@ belajar:<br>
     <li>membuat variabel php daari nama sampai adik<li>
     <li>membuat section#ipk<li>
     <li>setyling section#ipk<li>
-    <li>membuat vriabel dan melakukan perhitungan untuk matkul 1<li>
-    <li>membuat vriabel dan melakukan perhitungan untuk matkul 2<li>
-    <li>membuat vriabel dan melakukan perhitungan untuk matkul 3<li>
-    <li>membuat vriabel dan melakukan perhitungan untuk matkul 4<li>
-    <li>membuat vriabel dan melakukan perhitungan untuk matkul 5<li>
-    <li>membuat variabel dan melakukan perhitungan unutk $totalBobot<li>
+    <li>membuat vriabel dan melakukan perhitungan untuk matkul 1</li>
+    <li>membuat vriabel dan melakukan perhitungan untuk matkul 2</li>
+    <li>membuat vriabel dan melakukan perhitungan untuk matkul 3</li>
+    <li>membuat vriabel dan melakukan perhitungan untuk matkul 4</li>
+    <li>membuat vriabel dan melakukan perhitungan untuk matkul 5</li>
+    <li>membuat variabel dan melakukan perhitungan unutk $totalBobot</li>
+    <li>membuat variabel dan melakukan perhitungan unutk $totalSKS</li>
 </ol>
