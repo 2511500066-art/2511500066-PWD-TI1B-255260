@@ -17,4 +17,5 @@ belajar:<br>
     <li>membuat vriabel dan melakukan perhitungan untuk matkul 3<li>
     <li>membuat vriabel dan melakukan perhitungan untuk matkul 4<li>
     <li>membuat vriabel dan melakukan perhitungan untuk matkul 5<li>
+    <li>membuat variabel dan melakukan perhitungan unutk $totalBobot<li>
 </ol>
