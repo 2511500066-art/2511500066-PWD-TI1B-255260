@@ -162,6 +162,7 @@
             <p><strong>NILAI AKHIR :</strong>
             <?php
             $nilaiakhir1 = (0.1 * $nilaihadir1) + (0.2 * $nilaitugas1) + (0.3 * $nilaiuts1) + (0.4 * $nilaiUAS1);
+            echo $nilaiakhir1;
             ?>
            </p>
 
@@ -186,12 +187,12 @@
                 $grade1 = "C";
             } elseif ($nilaiakhir1 >= 51) {
                 $grade1 = "C-";
-            } elseif ($nilaiakhir1 >= 36){
+            } elseif ($nilaiakhir1 >= 36) {
                 $grade1 = "D";
             }else {
                 $grade1 = "E";
             }
-             echo $grade;
+             echo $grade1;
              ?>
             </p>
 
@@ -224,22 +225,27 @@
             <p><strong>BOBOT :</strong>
             <?php
             $bobot1 = $mutu1 * $sksmatkul1;
+            echo $bobot1;
             ?>
             </p>
 
             <p><strong>STATUS :</strong>
             <?php
-            if ($grade1 == "A-") {
+            if ($grade1 == "A") {
+                $status1 = "LULUS";
+            } elseif ($grade1 == "A-") {
                 $status1 = "LULUS";
             } elseif ($grade1 == "B+") {
                 $status1 = "LULUS";
-            }   elseif ($grade1 == "B") {
+            } elseif ($grade1 == "B") {
                 $status1 = "LULUS";
             } elseif ($grade1 == "B-") {
                 $status1 = "LULUS";
             } elseif ($grade1 == "C+") {
                 $status1 = "LULUS";
-            } elseif ($grade1 == "C-") {
+            } elseif ($grade1 == "C") {
+                $status1 = "LULUS";
+            } elseif ($grade1=="C-") {
                 $status1 = "LULUS";
             } else {
                 $status1 = "GAGAL";
@@ -247,19 +253,11 @@
             echo $status1;
             ?>
             </p>
-            
+            <!-- MATKUL 1 ABIS -->
             <hr>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
-            <p><strong></strong></p>
+            <!-- MATKUL2 -->
+       
+            <!--  -->
             <hr>
             <p><strong></strong></p>
             <p><strong></strong></p>
