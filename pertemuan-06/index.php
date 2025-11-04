@@ -30,20 +30,90 @@
         </section>
         <section id="about">
             <?php
-            
+            $nama = "M KAESA DUDE LAUDIANIS KOTO &#128526";
+            $nim = "2511500066";
+            $tempat_lahir = "SUNGAILIAT";
+            $tanggal_lahir = "25 September 2006";
+            $hobi = "Memancinng";
+            $pasangan = "-";
+            $pekerjaan = "MAHASISWA";
+            $orang_tua = "-";
+            $kakak = "-";
+            $adik = "-";
             ?>
             <h2>Tentang kami</h2>
-            <p> <strong>Nama:</strong>M KAESA DUDE LAUDIANIS KOTO</p>
-            <p> <strong>Nim:</strong>2511500066</p>
-            <p> <strong>Tempat Lahir:</strong>SUNGAILIAT</p>
-            <p> <strong>Tanggal Lahir:</strong>25 SEPTEMBER 2006</p>
-            <p> <strong>Hobi:</strong>MEMANCING</p>
-            <p> <strong>Pasangan:</strong>SEDANG DI USAHAKAN</p>
-            <p> <strong>Pekerjaan:</strong>MAHASISWA</p>
-            <p> <strong>Nama Ayah:</strong>-</p>
-            <p> <strong>Nama Ibu:</strong>-</p>
-            <p> <strong>Nama Kakak:</strong>-</p>
-            <p> <strong>Nama Adek:</strong>-</p>
+            <P>
+                <strong>NAMA :</strong>
+                <?php
+                echo "$nama";
+                ?>
+            </P>
+
+
+            <p>
+               <strong>NIM :</strong>
+               <?php
+               echo "$nim"
+              ?> 
+            </p>
+
+
+            <p> <strong>Tempat lahir:</strong>
+               <?php
+               echo"$tempat_lahir"
+               ?> 
+            </p>   
+
+
+             <p> <strong>tanggal_lahir:</strong>
+               <?php
+               echo"$tanggal_lahir"
+               ?> 
+            </p>   
+
+
+              <p> <strong>Hobi:</strong>
+               <?php
+               echo"$hobi"
+               ?> 
+            </p>   
+
+
+              <p> <strong>Pasangan:</strong>
+               <?php
+               echo"$pasangan"
+               ?> 
+            </p>   
+
+
+              <p> <strong>pekerjaan:</strong>
+               <?php
+               echo"$pekerjaan"
+               ?> 
+            </p>   
+
+
+              <p> <strong>orang tua:</strong>
+               <?php
+               echo"$orang_tua"
+               ?> 
+            </p>   
+
+
+              <p> <strong>kakak:</strong>
+               <?php
+               echo"$kakak"
+               ?> 
+            </p>   
+
+
+              <p> <strong>adikk:</strong>
+               <?php
+               echo"$adik"
+               ?> 
+            </p>   
+
+
 
         </section>
         <section id="contact">
