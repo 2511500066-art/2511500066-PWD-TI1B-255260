@@ -25,7 +25,9 @@ header li a {
 
 #home,
 #about,
-#contact {
+#contact,
+#ipk
+{
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
@@ -36,7 +38,8 @@ header li a {
 
 #home h2,
 #about h2,
-#contact h2 {
+#contact h2,
+#ipk h2 {
     color: #09d6fa;
     border-bottom: 2px solid #09d6fa;
     padding-bottom: 6px;
@@ -49,7 +52,8 @@ header li a {
 }
 
 #about p,
-#contact label {
+#contact label,
+#ipk p {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
@@ -60,7 +64,8 @@ header li a {
 
 
 #about strong,
-#contact label>span {
+#contact label>span,
+#ipk strong {
     min-width: 180px;
     color: #09d6fa;
     font-weight: 600;

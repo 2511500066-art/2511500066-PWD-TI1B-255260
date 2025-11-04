@@ -10,4 +10,7 @@ belajar:<br>
     <li>copy index.html & style.css, scipt.js (pertemuan-05)<li>
     <li>copy index.html dan rename hasil copy ke index.php<li>
     <li>membuat variabel php daari nama sampai adik<li>
+    <li>membuat section#ipk<li>
+    <li>setyling section#ipk<li>
+    <li>membuat avriabel dan melakukan perhitungan untuk matkul 1<li>
 </ol>

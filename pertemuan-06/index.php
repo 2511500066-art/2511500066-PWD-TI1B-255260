@@ -112,10 +112,193 @@
                echo"$adik"
                ?> 
             </p>   
+         </section>
+
+        <section id="ipk">
+            <h2>Nilai Saya</h2>
+            <!-- MATKUL 1 -->
+            <p><strong>NAMA MATAKULIAH 1:</strong>
+            <?php
+            $NamaMatkul1 = "Pemograman Web Dasar";
+            echo $NamaMatkul1;
+            ?>
+            </p>
+
+            <p><strong>SKS 1:</strong>
+            <?php
+            $sksmatkul1 = "8";
+            echo $sksmatkul1;
+            ?>
+            </p>
+            
+            <p><strong>KEHADIRAN 1:</strong>
+            <?php
+            $nilaihadir1 = "100";
+            echo $nilaihadir1
+            ?>
+            </p>
+
+            <p><strong>TUGAS 1:</strong>
+            <?php
+            $nilaitugas1 = "100";
+            echo $nilaitugas1
+            ?>
+            </p>
+
+            <p><strong>UTS 1:</strong>
+            <?php
+            $nilaiuts1 = "100";
+            echo $nilaiuts1
+            ?>
+            </p>
+
+            <p><strong>UAS :</strong>
+            <?php
+            $nilaiUAS1 = "100";
+            echo $nilaiUAS1
+            ?>
+            </p>
+
+            <p><strong>NILAI AKHIR :</strong>
+            <?php
+            $nilaiakhir1 = (0.1 * $nilaihadir1) + (0.2 * $nilaitugas1) + (0.3 * $nilaiuts1) + (0.4 * $nilaiUAS1);
+            ?>
+           </p>
 
 
+            <p><strong>GRADE :</strong>
+            <?php
+            if ($nilaihadir1 < 70) {
+                $grade1 = "E";
+            } elseif ($nilaiakhir1 >= 91) {
+                $grade1 ="A";
+            } elseif ($nilaiakhir1 >= 81) {
+                $grade1 = "A-";
+            } elseif ($nilaiakhir1 >= 76) {
+                $grade1 = "B+";
+            } elseif ($nilaiakhir1 >= 71) {
+                $grade1 = "B";
+            } elseif ($nilaiakhir1 >= 66) {
+                $grade1 = "B-";
+            } elseif ($nilaiakhir1 >= 61) {
+                $grade1= "C+";
+            } elseif ($nilaiakhir1 >= 56) {
+                $grade1 = "C";
+            } elseif ($nilaiakhir1 >= 51) {
+                $grade1 = "C-";
+            } elseif ($nilaiakhir1 >= 36){
+                $grade1 = "D";
+            }else {
+                $grade1 = "E";
+            }
+             echo $grade;
+             ?>
+            </p>
 
+            <p><strong>ANGKA MUTU</strong>
+            <?php
+            if ($nilaihadir1 < 70) {
+                $mutu1 = "0.00";
+            } elseif ($nilaiakhir1 >= 91) {
+                $mutu1 = "4.00";
+            } elseif ($nilaiakhir1 >= 81) {
+                $mutu1 = "3.70";
+            } elseif ($nilaiakhir1 >= 76) {
+                $mutu1 = "3.30";
+            } elseif ($nilaiakhir1 >= 71) {
+                $mutu1 = "3.00";
+            } elseif ($nilaiakhir1 >= 66) {
+                $mutu1 = "2.70";
+            } elseif ($nilaiakhir1 >= 61) {
+                $mutu1 = "2.30";
+            } elseif ($nilaiakhir1 >= 56) {
+                $mutu1 = "1.70";
+            } elseif ($nilaiakhir1 >= 51) {
+                $mutu1 = "1.00";
+            } else {
+                $mutu1 = "0.00";
+            }
+            echo $mutu1;
+            ?>
+            </p>
+            <p><strong>BOBOT :</strong>
+            <?php
+            $bobot1 = $mutu1 * $sksmatkul1;
+            ?>
+            </p>
+
+            <p><strong>STATUS :</strong>
+            <?php
+            if ($grade1 == "A-") {
+                $status1 = "LULUS";
+            } elseif ($grade1 == "B+") {
+                $status1 = "LULUS";
+            }   elseif ($grade1 == "B") {
+                $status1 = "LULUS";
+            } elseif ($grade1 == "B-") {
+                $status1 = "LULUS";
+            } elseif ($grade1 == "C+") {
+                $status1 = "LULUS";
+            } elseif ($grade1 == "C-") {
+                $status1 = "LULUS";
+            } else {
+                $status1 = "GAGAL";
+            }
+            echo $status1;
+            ?>
+            </p>
+            
+            <hr>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <hr>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <hr>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <hr>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <hr>
         </section>
+
         <section id="contact">
             <h2>Kontak Kami</h2>
             <form action="" method="GET">
