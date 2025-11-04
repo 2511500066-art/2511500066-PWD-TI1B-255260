@@ -19,4 +19,5 @@ belajar:<br>
     <li>membuat vriabel dan melakukan perhitungan untuk matkul 5</li>
     <li>membuat variabel dan melakukan perhitungan unutk $totalBobot</li>
     <li>membuat variabel dan melakukan perhitungan unutk $totalSKS</li>
+    <li>membuat variabel dan melakukan perhitungan unutk $ipk</li>
 </ol>
