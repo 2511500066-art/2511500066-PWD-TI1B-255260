@@ -50,7 +50,32 @@ endif;
       echo "nama saya hadi";
       ?>
       <p>Ini contoh paragraf HTML.</p>
+
+
     </section>
+     <section id="entry-data">
+      <h2>Kontak Kami</h2>
+      <form action="proses_mahasiswa.php" method="POST">
+
+        <label for="txtNama"><span>NIM:</span>
+          <input type="text" id="txtNamaMhs" name="txtNamaMhs" placeholder="Masukkan NIM" required autocomplete="name">
+        </label>
+
+        <label for="txtEmail"><span>Nama Lengkap:</span>
+          <input type="Text" id="txtNIM" name="txtNIM" placeholder="Masukan Nama Lengkap" required autocomplete="email">
+        </label>
+
+        <label for="txtProdi"><span>tanggal lahir:</span>
+          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+          <small id="charCount">0/200 karakter</small>
+        </label>
+
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+      </form>
+
+
 <section id="about">
             <?php
             $Nama = "M KAESA DUDE LAUDIANIS KOTO &#128526";
@@ -67,13 +92,69 @@ endif;
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
         <?php
-        echo $NIM;
+        echo  $NIM;
         ?>
       </p>
-      <p><strong>Nama Lengkap:</strong>
+
+      <p><strong>Nama:</strong>
         <?php
         echo $Nama;
-        ?> &#128526;
+        ?>
+        </p>
+
+        <p><strong>Tempat Lahir:</strong>
+        <?php
+        echo $tempat_lahir;
+        ?>
+        </p>
+
+        <p><strong>Tanggal Lahir:</strong>
+        <?php
+        echo $tanggal_lahir;
+        ?>
+        </p>
+
+
+         <p><strong>Hobi:</strong>
+        <?php
+        echo $hobi;
+        ?>
+        </p>
+      
+          <p><strong> Pekerjaan:</strong>
+        <?php
+        echo  $pekerjaan;
+        ?>
+        </p>
+
+        <p><strong>Pasangan:</strong>
+        <?php
+        echo $pasangan;
+        ?>
+        </p>
+
+           <p><strong> Orang tua:</strong>
+        <?php
+        echo  $orang_tua;
+        ?>
+        </p>
+      
+     <p><strong> Kakak:</strong>
+        <?php
+        echo  $kakak;
+        ?>
+        </p>
+
+          <p><strong> Adik:</strong>
+        <?php
+        echo  $adik;
+        ?>
+        </p>
+      
+
+
+
+        
         <section id="about">
             <h2>Tentang kami</h2>
             <p> <strong>Nama:</strong>M KAESA DUDE LAUDIANIS KOTO</p>
